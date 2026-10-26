@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use dfo in your research, please cite it as below."
+title: "dfo: a derivative-free optimization portfolio for bound-constrained black-box minimization"
+type: software
+authors:
+  - family-names: Petrov
+    given-names: Desislav
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 0.1.0
+date-released: "2026-10-26"
+repository-code: "https://github.com/dessvp/dfo"
+url: "https://github.com/dessvp/dfo"
+license:
+  - MIT
+  - Apache-2.0
+abstract: >-
+  A portfolio for bound-constrained derivative-free minimization, written in
+  Rust: Multilevel Coordinate Search, a quasi-Newton phase, lq-CMA-ES with
+  BIPOP restarts, L-SHADE and a funnel race for multi-funnel landscapes. On
+  the COCO/BBOB noiseless suite its score, averaged over budgets from 10·D to
+  10^5·D evaluations, is higher than that of every archived dataset in each
+  dimension from 2 to 40.
+keywords:
+  - derivative-free optimization
+  - black-box optimization
+  - CMA-ES
+  - multilevel coordinate search
+  - algorithm portfolio
+  - COCO
+  - BBOB
+  - Rust

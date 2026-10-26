@@ -763,6 +763,22 @@ each dataset to its paper.
 - R. Tanabe, A. Fukunaga. Improving the search performance of SHADE using linear population size reduction. *IEEE CEC* (2014) 1658–1665.
 - J. Zhang, A. C. Sanderson. JADE: adaptive differential evolution with optional external archive. *IEEE Trans. Evol. Comput.* 13 (2009) 945–958.
 
+## Citing
+
+If you use dfo in research, please cite it. GitHub's "Cite this
+repository" button gives the same entry from [CITATION.cff](CITATION.cff).
+
+```bibtex
+@software{petrov2026dfo,
+  author  = {Petrov, Desislav},
+  title   = {dfo: a derivative-free optimization portfolio for
+             bound-constrained black-box minimization},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/dessvp/dfo}
+}
+```
+
 ## License
 
 Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or
