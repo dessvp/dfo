@@ -1,0 +1,17 @@
+[package]
+name = "dfo-portfolio"
+description = "Derivative-free global optimization portfolio: MCS, separability test, coordinate-wise solver and IPOP/BIPOP lq-CMA-ES restarts"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+dfo-mcs = { path = "../mcs" }
+dfo-cmaes = { path = "../cmaes" }
+
+[lints]
+workspace = true

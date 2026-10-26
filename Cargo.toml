@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+authors = ["Desislav Petrov"]
+license = "MIT OR Apache-2.0"
+rust-version = "1.88"
+repository = "https://github.com/dessvp/dfo"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+panic = "abort"
+
+[profile.bench]
+inherits = "release"
+debug = true
+
+# `!(x > 0.0)` is deliberate: it is also true for NaN. Index loops are the
+# clearest form for the dense numeric kernels.
+[workspace.lints.clippy]
+neg_cmp_op_on_partial_ord = "allow"
+needless_range_loop = "allow"

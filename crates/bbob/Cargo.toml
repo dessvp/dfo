@@ -1,0 +1,18 @@
+[package]
+name = "dfo-bbob"
+description = "COCO/BBOB benchmark driver (vendored COCO 2.8.2, BSD-3-Clause)"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+dfo-mcs = { path = "../mcs" }
+dfo-cmaes = { path = "../cmaes" }
+dfo-portfolio = { path = "../portfolio" }
+
+[lints]
+workspace = true

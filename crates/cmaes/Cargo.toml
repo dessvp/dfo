@@ -1,0 +1,13 @@
+[package]
+name = "dfo-cmaes"
+description = "CMA-ES with active covariance update and IPOP restarts, plus a linear-quadratic global surrogate (lq-CMA-ES)"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lints]
+workspace = true

@@ -1,0 +1,19 @@
+[package]
+name = "dfo-mcs"
+description = "Multilevel Coordinate Search (Huyer & Neumaier, 1999), implemented from the paper, with BOBYQA local search"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+bobyqa = "0.3.2"
+
+[features]
+profile = []
+
+[lints]
+workspace = true
